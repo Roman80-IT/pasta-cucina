@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="./images/header/logo.png" alt="Tomato" />
+          <a class="nav-logo" href="./index.html">
+            <span>Cucina</span>
+          </a>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Store</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Gallery</a>
+            </li>
+          </ul>
+          <button class="nav-btn btn" type="button">Contact us</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__title-list">
+            <h1 class="hero__title">CUCINA DI CATHERINA</h1>
+            <p class="hero__subtitle">
+              We know, you will
+              <span class="hero__subtitle-text">love</span> our product
+            </p>
+            <button class="hero__button" type="button">Buy now</button>
+            <ul class="hero__list">
+              <li class="hero__item">
+                <p class="hero__text">
+                  <span class="hero__text-number">14</span> different tastes
+                </p>
+              </li>
+              <li class="hero__item">
+                <p class="hero__text">
+                  <span class="hero__text-number">31</span> factories around the
+                  world
+                </p>
+              </li>
+            </ul>
+          </div>
+          <img
+            class="hero__img-pasta"
+            src="./images/hero/img-pasta.jpg"
+            alt="Cupping glass of Pasta Sause"
+            width="305"
+            height="535"
+          />
+          <ul class="hero__list-social">
+            <li class="hero__item-social">
+              <a
+                class="hero__link-social"
+                href="https://tumblr.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="tumblr icon"
+              >
+                <svg class="hero__icon" width="24" height="24">
+                  <use href="./images/icons.svg#hero__icon-tumblr"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero__item-social">
+              <a
+                class="hero__link-social"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram icon"
+              >
+                <svg class="hero__icon" width="24" height="24">
+                  <use href="./images/icons.svg#hero__icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero__item-social">
+              <a
+                class="hero__link-social"
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="youtube icon"
+              >
+                <svg class="hero__icon" width="24" height="24">
+                  <use href="./images/icons.svg#hero__icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero__item-social">
+              <a
+                class="hero__link-social"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter icon"
+              >
+                <svg class="hero__icon" width="24" height="24">
+                  <use href="./images/icons.svg#hero__icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Section  Products -->
+      <section class="products">
+        <h2 hidden class="products__tittle">Products</h2>
+        <div class="container">
+          <ul class="products__list">
+            <li class="products__item">
+              <a href="" class="products__link">
+                <img
+                  class="products__link-image"
+                  src="./images/products/image-sauce.png"
+                  width="349"
+                  height="349"
+                  alt="Classic sauce"
+                />
+              </a>
+              <h3 class="products__item-title">Classic sauce</h3>
+              <p class="products__item-text">
+                The most delicate taste of tomatoes, combined with branded
+                spices and white wine, will make your dish incredibly tasty.
+              </p>
+              <button class="products__item-btn">Buy now</button>
+            </li>
+            <li class="products__item">
+              <a href="" class="products__link">
+                <img
+                  class="products__link-image"
+                  src="./images/products/image-sauce.png"
+                  width="349"
+                  height="349"
+                  alt="Classic sauce"
+                />
+              </a>
+              <h3 class="products__item-title">Spicy sauce</h3>
+              <p class="products__item-text">
+                For thrill-seekers, we added hot chili pepper to our sauce, it
+                also reveals all the tastes and aromas of the sauce wel.
+              </p>
+              <button class="products__item-btn">Buy now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section Recipes -->
+      <section class="recipes">
+        <div class="container">
+          <h2 hidden class="recipes__tittle">Recipes</h2>
+          <ul class="recipes__list">
+            <li class="recipes__item">
+              <iframe
+                width="442"
+                height="307"
+                src="https://www.youtube.com/embed/qkTlcfCw7jQ?controls=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__text">Bell pepper pasta</p>
+            </li>
+            <li class="recipes__item">
+              <iframe
+                width="442"
+                height="307"
+                src="https://www.youtube.com/embed/vM58AvWU5L0?controls=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__text">Tomato paste</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery">
+        <div class="container">
+          <h2 hidden class="gallery__title">Gallery</h2>
+          <ul class="gallery__list">
+            <li>
+              <img
+                src="./images/gallery/image6.png"
+                alt="man takes tomatoes"
+                width="770"
+                height="504"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/gallery/full-shot-kids-picking-tomatoes1.jpg"
+                width="770"
+                height="504"
+                alt="two girls takes tomatoes"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/gallery/farmer-picking-fresh-ripe-tomato-vegetables-for-the-market-sale1.jpg"
+                width="770"
+                height="504"
+                alt="smiling man takes tomatoes"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer__content">
+          <a class="nav-logo footer-logo" href="./index.html">
+            <img
+              src="./images/header/logo.png"
+              alt="Tomato Logo"
+              width="32"
+              height="32"
+            />
+            <span>Cucina</span>
+          </a>
+          <ul class="footer-tabs__list">
+            <li class="footer-tabs__item">
+              <a class="footer-tabs__link" href="">Home</a>
+            </li>
+            <li class="footer-tabs__item">
+              <a class="footer-tabs__link" href="">Store</a>
+            </li>
+            <li class="footer-tabs__item">
+              <a class="footer-tabs__link" href="">Recipes</a>
+            </li>
+            <li class="footer-tabs__item">
+              <a class="footer-tabs__link" href="">Gallery</a>
+            </li>
+          </ul>
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a class="address__link" href="">
+                  <svg class="address-svg" width="16.5px" height="21px">
+                    <use
+                      href="./images/footer/svg/social-media.svg#icon-location"
+                    ></use>
+                  </svg>
+                  Elvia Elviaveien 1, 1234 Oslo</a
+                >
+              </li>
+              <li class="address__item">
+                <a
+                  class="address__link"
+                  href="mailto:willie.jennings@example.com"
+                >
+                  <svg class="address-svg" width="21px" height="16px">
+                    <use
+                      href="./images/footer/svg/social-media.svg#icon-email"
+                    ></use>
+                  </svg>
+                  willie.jennings@example.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="footer-socials__list">
+            <li class="footer-socials__item">
+              <a class="footer-socials__link" href=""
+                >Tumblr
+                <svg class="social-media" width="16px" height="24px">
+                  <use
+                    href="./images/footer/svg/social-media.svg#icon-social-tumblr"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__item">
+              <a class="footer-socials__link" href=""
+                >Instagram
+                <svg class="social-media" width="16px" height="24px">
+                  <use
+                    href="./images/footer/svg/social-media.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__item">
+              <a class="footer-socials__link" href=""
+                >YouTube
+                <svg class="social-media" width="16px" height="24px">
+                  <use
+                    href="./images/footer/svg/social-media.svg#icon-youtube"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__item">
+              <a class="footer-socials__link" href=""
+                >Twitter
+                <svg class="social-media" width="16px" height="24px">
+                  <use
+                    href="./images/footer/svg/social-media.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer__terms-and-policy">
+          By using this website, you agree to the
+          <a class="terms-and-policy__link" href="#">Terms of Service</a> and
+          <a class="terms-and-policy__link" href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
